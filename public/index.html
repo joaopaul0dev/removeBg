@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remover Fundo de Imagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <h1>Remover Fundo de Imagem</h1><br><br>
+        <p>remova o fundo da sua imagem com um clique.</p>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="imageInput" name="image" accept="image/*" required>
+            <button type="submit">Remover Fundo</button>
+        </form>
+        
+        <div id="result">
+            <img id="originalImage" style="display: none;" alt="Imagem original">
+            <img id="processedImage" style="display: none;" alt="Imagem sem fundo">
+            <br>
+            <a id="downloadLink" style=>Baixar Imagem</a>
+        </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
