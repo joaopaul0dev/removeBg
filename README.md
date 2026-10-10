@@ -13,7 +13,7 @@ Aplicação web para remover fundo de imagens usando a API do Remove.bg.
 ## Configuração
 
 - Edite `configs/config.js` com sua API key válida do Remove.bg
-- A API key atual é de exemplo e pode não funcionar
+- A API key utilizada pelo script se encontra em `configs/config.js`
 
 ## Estrutura do Projeto
 
